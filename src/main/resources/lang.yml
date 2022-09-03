@@ -1,0 +1,12 @@
+messages:
+  cant-do-that-from-console: 'You cannot do that from console.'
+  no-permission: '&c&lHey ! &7I am sorry but you cannot do that.'
+  plugin-reloaded: '&a&l! &7Plugin &fTitanBlocks &7reloaded...'
+  usage: '&c&l! &7Get more help with &f/TitanBlocks Help'
+  help:
+    - ''
+    - '&a&lTitanBlocks &8: &fHelps'
+    - '   &f/TitanBlocks Reload &7: Reload the plugin.'
+    - '   &f/TitanBlocks FWCreate &7: Create new titan block with fast way.'
+    - '   &f/TitanBlocks Create <x> <y> <z> <name> &7: Create new titan block with fast way.'
+    - ''

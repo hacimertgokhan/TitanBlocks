@@ -1,0 +1,15 @@
+name: TitanBlocks
+version: '${project.version}'
+main: mertgokhan.mixeration.titanblocks.TitanBlocks
+prefix: TitanBlocks
+load: STARTUP
+authors: [ Mixeration ]
+description: TitanBlocks, a special blocks !
+commands:
+  TitanBlocks:
+    description: TitanBlocks management command for admins.
+
+
+permissions:
+  titan.blocks:
+    description: TitanBlocks default administrator command.
