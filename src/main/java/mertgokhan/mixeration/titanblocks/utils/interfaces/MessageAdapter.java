@@ -9,4 +9,6 @@ public interface MessageAdapter {
 
     String message(String message);
 
+    void debug(String debug);
+
 }

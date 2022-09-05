@@ -2,6 +2,8 @@ package mertgokhan.mixeration.titanblocks.utils;
 
 import mertgokhan.mixeration.titanblocks.config.Plugin;
 import mertgokhan.mixeration.titanblocks.utils.interfaces.CommandAdapter;
+import org.bukkit.Bukkit;
+import org.bukkit.World;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
@@ -26,6 +28,12 @@ public class Commands implements CommandAdapter {
             return false;
         }
         return true;
+    }
+
+    public boolean isWorldNull(String w) {
+        World world = Bukkit.getWorld(w);
+        if(world == null) return false;
+        else return true;
     }
 
 }

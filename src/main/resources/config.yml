@@ -1,2 +1,4 @@
+debug: true
 titan-blocks:
   administrator: titanblocks.admin
+  blocks:

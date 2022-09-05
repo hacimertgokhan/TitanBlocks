@@ -9,5 +9,6 @@ public interface ReadyHandler {
     void loadCommands();
 
     void createBackUp();
+    void loadMaps();
 
 }

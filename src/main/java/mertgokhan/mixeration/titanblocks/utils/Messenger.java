@@ -2,6 +2,7 @@ package mertgokhan.mixeration.titanblocks.utils;
 
 import mertgokhan.mixeration.titanblocks.config.Message;
 import mertgokhan.mixeration.titanblocks.utils.interfaces.MessageAdapter;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -15,6 +16,11 @@ public class Messenger implements MessageAdapter {
     @Override
     public String message(String message) {
         return Message.getConfig().getString(message);
+    }
+
+    @Override
+    public void debug(String debug) {
+        Bukkit.getLogger().warning("[TitanBlocks@Debug]: " + debug);
     }
 
 }
